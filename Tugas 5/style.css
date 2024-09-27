@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+header, nav, footer{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    height: 100px;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.middle {
+    text-align: center;
+    flex: 2;
+    padding: 20px;
+    border: 1px solid black;
+}
